@@ -1,3 +1,5 @@
+![Stealth]([https://path/to/image.png](https://www.amanstark.com/wp-content/uploads/2023/06/pexels-sebastiaan-stam-1480690-scaled.jpg))
+
 # Stealth.js: Code of the Unseen
 
 ```javascript
