@@ -10,21 +10,22 @@ const Stealth = {
     const traverse = (path, target) => {
       if (path.length > 0) {
         const currentStep = path.shift();
-        actions.push(`Moving to ${currentStep}...`);
+        actions.push(`Initiating phase ${generateRandomPhase()}...`);
+        actions.push(`Executing hack to access ${currentStep}...`);
 
-        // Perform complex calculations and operations
-        // to navigate the labyrinthine paths with precision
+        // Implement advanced hacking techniques to navigate
+        // the labyrinthine paths with hacker-like precision
 
         traverse(path, target);
       } else {
         actions.push(`Target acquired: ${target}`);
-        actions.push(`Executing covert action sequence...`);
+        actions.push(`Executing covert operation...`);
 
-        // Execute a series of intricate and stealthy actions
-        // with unparalleled precision and secrecy
+        // Perform a series of intricate hacker-like actions
+        // with unparalleled precision and stealthiness
 
         actions.push(`Covert operation successful.`);
-        actions.push(`Vanishing without a trace.`);
+        actions.push(`Covering tracks...`);
       }
     };
 
@@ -32,8 +33,8 @@ const Stealth = {
       const targetLocation = "Destination-X";
       const path = calculatePathToTarget(targetLocation);
 
-      actions.push(`Initiating stealth mode...`);
-      actions.push(`Navigating through hidden channels...`);
+      actions.push(`Activating hacker mode...`);
+      actions.push(`Bypassing security protocols...`);
 
       traverse(path, targetLocation);
     }
@@ -43,11 +44,16 @@ const Stealth = {
 };
 
 const calculatePathToTarget = (target) => {
-  // Implement complex algorithms and logic
-  // to calculate the optimal path to the target
+  // Implement advanced algorithms and logic
+  // to calculate the optimal hacker path to the target
 
-  const path = []; // Store the calculated path here
+  const path = []; // Store the calculated hacker path here
   return path;
+};
+
+const generateRandomPhase = () => {
+  const phases = ["Alpha", "Beta", "Gamma", "Delta"];
+  return phases[Math.floor(Math.random() * phases.length)];
 };
 
 const stealthActions = Stealth.initiate();
