@@ -1,2 +1,7 @@
 files/links.min.json linguist-language=JSON
+files/sites.min.json linguist-language=JSON
 files/blog.min.js linguist-language=JavaScript
+files/main.min.js linguist-language=JavaScript
+scripts/all.min.json linguist-language=JSON
+scripts/console.min.js linguist-language=JavaScript
+scripts/error.min.js linguist-language=JavaScript
