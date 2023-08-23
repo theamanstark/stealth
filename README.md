@@ -1,4 +1,4 @@
-![Stealth](https://www.amanstark.com/wp-content/uploads/2023/06/pexels-sebastiaan-stam-1480690-scaled.jpg)
+![Stealth](https://raw.githubusercontent.com/theamanstark/stealth/main/.gitassets/stealth.jpg)
 
 <h1 align="center">Stealth.js: Code of the Unseen</h1>
 </br>
